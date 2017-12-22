@@ -147,6 +147,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Square.h" />
+    <ClInclude Include="TAllocationBlock.h" />
+    <ClInclude Include="TIterator.h" />
+    <ClInclude Include="TList.h" />
+    <ClInclude Include="TlistItem.h" />
+    <ClInclude Include="Trapeze.h" />
+    <ClInclude Include="TTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="TAllocationBlock.cpp" />
+    <ClCompile Include="TList.cpp" />
+    <ClCompile Include="TlistItem.cpp" />
+    <ClCompile Include="Trapeze.cpp" />
+    <ClCompile Include="TTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
